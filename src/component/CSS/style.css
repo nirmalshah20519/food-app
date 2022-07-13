@@ -230,7 +230,8 @@
 }
 
 @media only screen and (max-width: 824px) {
-    body {
-      background-color: lightblue;
-    }
+    .navBar{
+    background: red;
+        
+}
   }
