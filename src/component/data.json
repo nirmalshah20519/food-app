@@ -1,0 +1,47 @@
+{
+    "food":[
+        {
+            "id":1,
+            "name":"salad",
+            "image":"https://media.istockphoto.com/photos/fresh-healthy-salad-in-bowl-picture-id1290024277?s=612x612",
+            "price":3,
+            "quantity":0
+        },
+        {
+            "id":2,
+            "name":"noodles",
+            "image":"https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "price":7,
+            "quantity":0
+        },
+        {
+            "id":3,
+            "name":"Hotdog",
+            "image":"https://images.unsplash.com/photo-1638368593249-7cadb261e8b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=391&q=80",
+            "price":5,
+            "quantity":0
+        },
+        {
+            "id":4,
+            "name":"Burger",
+            "image":"https://media.istockphoto.com/photos/delicious-hamburger-with-beef-cutlet-vegetables-and-onions-isolated-picture-id1329622513?s=612x612",
+            "price":1,
+            "quantity":0
+        },
+
+        {
+            "id":5,
+            "name":"Fruit Pie",
+            "image":"https://images.unsplash.com/photo-1511996571461-5ea529c6d9d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+            "price":9,
+            "quantity":0
+        },
+        {
+            "id":6,
+            "name":"Pancake",
+            "image":"https://images.unsplash.com/photo-1579008840349-a7253c71a754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80",
+            "price":6,
+            "quantity":0
+        }
+    ]
+}

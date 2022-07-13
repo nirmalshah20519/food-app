@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* APP.JS */
+.main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    height: 100%;
+}
+
+
+/* NAVBAR */
+
+.navBar{
+    background: rebeccapurple;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+    box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.15);
+    
+}
+
+.navBar .menu:first-child{
+    margin-top: 45%;
+}
+
+.navBar .menu{
+    margin-top: 8%;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 2.25%;
+}
+
+.navBar .menu:hover{
+   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navBar .menu .Home{
+    color: rebeccapurple;
+    text-decoration: none;
+    font-size: larger;
+    height: fit-content;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.navBar .menu .Home .Home-ico{
+    
+    margin-right: 0.5rem;
+    vertical-align:baseline;
+}
+
+
+/* ABOUT PAGE */
+
+.about-cont{
+    background-color: rgb(244, 255, 144);
+    width: 25rem;
+    height: 25rem;
+    margin: 15% 30%;
+    
+}
+
+.about-cont p{
+    margin-top: 40%;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* MENU.JS */
+.cont{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 1%;
+
+}
+
+.cont .menu-list{
+    text-align: center;
+    box-shadow: -4px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.cont .menu-cont{
+    
+    padding: 2%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.cont .menu-cont .card{
+    box-shadow: -4px 8px 15px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    display: inline-flex;
+    margin: 0.45%;
+    text-align: center;
+    
+}
+
+.cont .menu-cont .card .img{
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgb(6, 7, 35) 0%, rgb(2, 0, 25) 97.5% );
+    
+   
+}
+
+.cont .menu-cont .card .img img{
+    max-height: 12rem;
+}
+
+.cont .menu-cont .card p{
+    text-align: left;
+    padding-left: 5%;
+}
+
+.cont .menu-cont .card p span{
+    font-weight: 700;
+}
+
+.cont .menu-cont .card .add2cart{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: 400;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 16px;
+}
+
+/* .cont .menu-cont .card .incDec{
+    
+    font-weight: 400;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 25% 65% 25%;
+}
+
+.cont .menu-cont .card .incDec .dec{
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+    vertical-align:top;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(255, 83, 83);    
+}
+
+.cont .menu-cont .card .incDec .inc{
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+    vertical-align:top;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(107, 255, 107);
+} */
+
+
+/* CART */
+
+.cont .cart{
+    text-align: center;
+    box-shadow: -4px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    margin-left: 6%;
+}
+
+.cont .cart .cart-cont{
+    margin-top: 15%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.cont .cart .cart-cont .cart-list-title{
+    display: grid;
+    grid-template-columns: 9% 30% 9% 40% 9% 3%;
+    background-color: blueviolet;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+.cont .cart .cart-cont .cart-list{
+    display: grid;
+    grid-template-columns: 9% 30% 9% 40% 9% 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: solid 1px white;
+}
+
+.cont .cart .cart-cont .cart-list .crt-qty{
+
+    display: grid;
+    grid-template-columns: 15% 25% 35% 25%;
+    
+}
+
+.cont .cart .cart-cont .cart-list .crt-qty .dec{
+    grid-column: 2/3;
+    background-color: red;
+}
+
+.cont .cart .cart-cont .cart-list .crt-qty .dec:disabled{
+    background-color: rgb(255, 152, 152);
+}
+
+.cont .cart .cart-cont .cart-list .crt-qty .inc{
+    background-color: green;
+}
+
+.cont .cart .cart-cont .cart-list .crt-qty button{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    border: solid 0.15px black;
+    
+}
+
+.cont .cart .total{
+    background-color: rgb(72, 255, 133);
+    text-align: right;
+    padding: 2%;
+    font-weight: 600;
+}
